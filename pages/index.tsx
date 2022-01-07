@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Layout from '../components/layout';
 
 const Home: NextPage = () => {
   return (
@@ -9,9 +10,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Practice basic usage of Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>header</header>
-      <main>main</main>
-      <footer>footer</footer>
+      <Layout></Layout>
     </>
   );
 };
